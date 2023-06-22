@@ -152,7 +152,7 @@ hr {
 
 .home {
     margin-top: 80px;
-    background: url(medias/iphone\ evolution.jpg);
+    background: url(medias/téléchargement\ a.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -182,6 +182,9 @@ h1 {
 .vente-list {
     display: flex;
     justify-content: space-between;
+}
+.vente-list a {
+    color: #000;
 }
 .vente-list img {
     box-shadow: 0 0 9px rgba(0,0,0,0.1);
@@ -313,4 +316,62 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Anton' , sans-serif;
+}
+.mes-reseaux {
+    text-align: center;
+  }
+  
+  .reseaux-items {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .reseaux-items a {
+    margin: 0 10px;
+  }
+  
+  .reseaux-items img {
+    width: 40px; 
+    height: auto;
+  }
+
+.promo {
+    padding: 0 100px;
+}
+.promo img {
+    width: 220px;
+}
+.promo-list {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+}
+.promo-list .box {
+    background-color: #fbf5fb;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    border-radius: 18px;
+    padding: 20px;
+    transition: 0.25s;
+}
+.promo-list .box:hover {
+    transform: scale(0.9);
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Anton' , sans-serif;
+}
+
+footer .div1 img {
+
+    margin-top: 20px;
+    border: 1px solid #fff;
+    height: 50px;
+    cursor: pointer;
+}
+footer.div1 img :last-child {
+    margin-left: 10px;
 }
