@@ -166,7 +166,10 @@ hr {
 
 .vente {
     margin: 50px 0;
-    padding: 0 10px;
+    padding: 0 70px;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 15px;
 }
 h1 {
     font-size: 40px;
@@ -188,7 +191,7 @@ h1 {
 }
 .vente-list img {
     box-shadow: 0 0 9px rgba(0,0,0,0.1);
-    width: 350px;
+    width: 300px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -374,4 +377,32 @@ footer .div1 img {
 }
 footer.div1 img :last-child {
     margin-left: 10px;
+}
+.foote {
+    margin-top: 100px;
+    background-color: black;
+    color: #fff;
+    padding: 100px 0; /* Supprimer le padding horizontal */
+    text-align: center;
+    width: 100%;
+    position: relative; 
+    margin-bottom: 0; 
+}
+.foote a {
+    
+    color: #fff;
+}
+.foote h3 {
+    text-align: center;
+}
+.fott {
+    margin-top: 50px;
+    justify-content: start;
+}
+.fott img {
+    width: 150px;
+    height: 100px;
+}
+.MHD {
+    margin-right: 900px;
 }
